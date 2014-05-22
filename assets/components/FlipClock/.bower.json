@@ -1,0 +1,13 @@
+{
+  "name": "FlipClock",
+  "homepage": "https://github.com/objectivehtml/FlipClock",
+  "_release": "0a5434bec1",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "0a5434bec11464ea135f3dd232b26bebf8fc94b8"
+  },
+  "_source": "git://github.com/objectivehtml/FlipClock.git",
+  "_target": "*",
+  "_originalSource": "FlipClock"
+}

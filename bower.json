@@ -1,0 +1,21 @@
+{
+  "name": "countdown4mori",
+  "version": "0.0.1",
+  "homepage": "https://github.com/countdown4mori/countdown4mori",
+  "authors": [
+    "Antonio Parisi <ant.parisi@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "FlipClock": "",
+    "jquery": "",
+    "uikit": ""
+  }
+}

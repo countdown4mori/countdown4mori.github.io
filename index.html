@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <link rel='stylesheet' href='assets/components/uikit/dist/css/uikit.min.css'>
+    <link rel='stylesheet' href='assets/components/FlipClock/compiled/flipclock.css'>
+    <style>
+      body {
+        background: rgba(0,0,0,0.7);
+      }
+
+      .flip-clock-wrapper {
+        position: absolute;
+        -webkit-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+        transform: translate(0, -50%);
+        top: 50%;
+      }
+
+      .flip-clock-label {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class='uk-container uk-container-center'>
+      <div class='uk-width-7-10 uk-container-center'>
+        <div class='your-clock'></div>
+      </div>
+    </div>
+
+    <script src='assets/components/jquery/jquery.min.js'></script>
+    <script src='assets/components/FlipClock/compiled/flipclock.min.js'></script>
+
+    <script type='text/javascript'>
+      var currentDateTime = new Date().getTime() / 1000;
+      var finalDateTime = 1463916285.28;
+      var diff = finalDateTime - currentDateTime;
+
+      var clock = $('.your-clock').FlipClock(diff, {
+        clockFace: 'DailyCounter',
+        countdown: true
+      });
+    </script>
+  </body>
+</html>
